@@ -1,0 +1,21 @@
+{
+    "inbounds": [{
+        "port": PORT_PLACEHOLDER,
+        "protocol": "vless",
+        "settings": {
+            "clients": [{
+                "id": "b831381d-6324-4d53-ad4f-8cba48b32678"
+            }],
+            "decryption": "none"
+        },
+        "streamSettings": {
+            "network": "ws",
+            "wsSettings": {
+                "path": "/proxy-tunnel"
+            }
+        }
+    }],
+    "outbounds": [{
+        "protocol": "freedom"
+    }]
+}
